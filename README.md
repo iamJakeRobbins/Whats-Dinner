@@ -12,7 +12,7 @@
 ## What inputs are needed to generate those outputs?
 
 
-## What technologies you plan to use
+## What technologies do you plan to use?
 
 
 ## Feature list
