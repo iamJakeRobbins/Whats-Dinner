@@ -1,20 +1,27 @@
-# Galvanize Individual Project Proposal
+# Q1 Project Proposal
 
 ## Project Description
 
 
-## Who uses it?
+## What problem does your project solve?
 
 
-## What outputs do they need?
+## Who has this problem?
 
 
-## What inputs are needed to generate those outputs?
+## How will your project solve this problem?
+
+
+## What inputs does it need?
+
+
+## What outputs does it produce?
+
+
+## What web API(s) will it use?
 
 
 ## What technologies do you plan to use?
 
 
 ## Feature list
-
-
