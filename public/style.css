@@ -1,0 +1,45 @@
+*{
+	color: #003B27
+}
+
+header{
+	border-bottom: #003B27 solid 5px;
+}
+
+header, footer {
+	background-color: #EEEEEE;
+	text-align: right;
+	padding: 1rem;
+}
+
+h1 {
+	text-align: center;
+}
+
+.custom-restricted {
+    height: 30rem;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+}
+
+div {
+	text-align: center;
+	padding-bottom: 5rem;
+}
+img {
+	height: 25rem;
+	width: 25rem;
+}
+
+main {
+	background-color: lightgray;
+	background-image:url(Background.jpg);
+	padding:2px;
+}
+footer{
+	padding-top: 1rem;
+	text-align: left;
+	padding-bottom: 15rem;
+	border-top: #003B27 solid 5px;
+}
