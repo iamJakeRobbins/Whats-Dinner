@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>The Smart Dinner Assisstant</title>
-		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-		<link rel="stylesheet" href=style.css>
-  </head>
-  <body>
-    <header>
-      <h1>So, What's for Dinner?</h1>
-			<form class = "pure-form" id = 'searchItem'>
-        <label for="search">What're You Hungry For?</label>
-				<input type="text" class="pure-input-rounded"
-				placeholder="Search Recipe" name='search' value="">
-					<button type="submit" class="pure-button">Go!	</button>
-			</form>
-		</header>
-			<main>
-				<section class= 'topHead'>
-					<!-- <h2>Why don't you try...</h2> -->
-				</header>
-      	<section class="pure-menu pure-menu-scrollable custom-restricted" ></section>
-    </main>
-		<footer>
-			<p>blahblahblah</p>
-		</footer>
-		<script src="app.js"></script>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<title>The Smart Dinner Assistant</title>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<link rel="stylesheet" href=style.css>
+</head>
+
+<body>
+	<header>
+		<h1>So, What's for Dinner?</h1>
+		<form class="pure-form" id='searchItem'>
+			<label form="search">What're You Hungry For?</label>
+			<input type="text" class="pure-input-rounded" placeholder="Search Recipe" name='search' value="">
+			<button type="submit" class="pure-button">Search for Recipes	</button>
+		</form>
+	</header>
+	<main>
+		<section class="pure-menu pure-menu-scrollable custom-restricted"></section>
+	</main>
+	<footer>
+		<div class="footerContainer">
+			<p>Powered by Food2Fork</p>
+			<p>Created by <a href="https://github.com/iamJakeRobbins" target="blank">Jake Robbins</a> 2017
+			</p>
+		</div>
+	</footer>
+	<script src="app.js"></script>
+</body>
+
 </html>
